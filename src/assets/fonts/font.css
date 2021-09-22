@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'ShangShouRuiYuanTi-2';
+  src: url('./ShangShouRuiYuanTi-2/ShangShouRuiYuanTi-2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ledNumber';
+  src: url('./ledNumber/ledNumber.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

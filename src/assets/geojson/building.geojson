@@ -1,0 +1,351 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.063568,
+                    30.578369
+                ]
+            },
+            "properties": {
+                "title": "楚峰国际中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.060731,
+                    30.574418
+                ]
+            },
+            "properties": {
+                "title": "德商国际"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.061245,
+                    30.581618
+                ]
+            },
+            "properties": {
+                "title": "东方希望中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.063162,
+                    30.585093
+                ]
+            },
+            "properties": {
+                "title": "枫丹国际"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.065599,
+                    30.574849
+                ]
+            },
+            "properties": {
+                "title": "孵化园"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.064369,
+                    30.574713
+                ]
+            },
+            "properties": {
+                "title": "拉德方斯大厦"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.069951,
+                    30.586563
+                ]
+            },
+            "properties": {
+                "title": "首座MAX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066683,
+                    30.576786
+                ]
+            },
+            "properties": {
+                "title": "泰达时代中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066006,
+                    30.58237
+                ]
+            },
+            "properties": {
+                "title": "天府国际金融中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066006,
+                    30.58237
+                ]
+            },
+            "properties": {
+                "title": "天府双塔"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.069697, 30.58485
+                ]
+            },
+            "properties": {
+                "title": "银泰中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.062341,30.574992
+                ]
+            },
+            "properties": {
+                "title": "盈创动力大厦"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.063218,30.581176
+                ]
+            },
+            "properties": {
+                "title": "中国华商金融中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.061156,30.578005
+                ]
+            },
+            "properties": {
+                "title": "中航国际交流中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.053302,30.581585
+                ]
+            },
+            "properties": {
+                "title": "中海国际中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.061274,30.583493
+                ]
+            },
+            "properties": {
+                "title": "中航国际广场"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.065185,30.581311
+                ]
+            },
+            "properties": {
+                "title": "CBP中央商务花园"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.063191,30.57836
+                ]
+            },
+            "properties": {
+                "title": "新中泰国际大厦"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.061189,30.579554
+                ]
+            },
+            "properties": {
+                "title": "创新时代广场"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.058432,30.583482
+                ]
+            },
+            "properties": {
+                "title": "环汇商业广场"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.072958,30.578402
+                ]
+            },
+            "properties": {
+                "title": "中铁信托大厦"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.063518, 30.568848
+                ]
+            },
+            "properties": {
+                "title": "新世纪环球中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.062131, 30.576403
+                ]
+            },
+            "properties": {
+                "title": "奥克斯广场"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.061255,30.585054
+                ]
+            },
+            "properties": {
+                "title": "布鲁明顿广场"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.069653,30.588022
+                ]
+            },
+            "properties": {
+                "title": "旺旺商业广场"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.069942,30.577406
+                ]
+            },
+            "properties": {
+                "title": "交子科技金融中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.076605,30.581497
+                ]
+            },
+            "properties": {
+                "title": "金融麦田"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.077056, 30.572565
+                ]
+            },
+            "properties": {
+                "title": "复地金融岛"
+            }
+        }
+    ]
+}

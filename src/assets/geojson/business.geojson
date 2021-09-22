@@ -1,0 +1,121 @@
+{
+    "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.062131, 30.576403
+                    ]
+                },
+                "properties": {
+                    "title": "奥克斯广场"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.063518, 30.568848
+                    ]
+                },
+                "properties": {
+                    "title": "环球购物中心"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.069697, 30.58485
+                    ]
+                },
+                "properties": {
+                    "title": "银泰in99"
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.057594, 30.583051
+                    ]
+                },
+                "properties": {
+                    "title": "悠方"
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.069782, 30.580163
+                    ]
+                },
+                "properties": {
+                    "title": "远洋邦邦"
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.077056, 30.572565
+                    ]
+                },
+                "properties": {
+                    "title": "复地金融岛"
+                }
+            }, {
+
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.07031, 30.570157
+                    ]
+                },
+                "properties": {
+                    "title": "SKP"
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.070911, 30.574055
+                    ]
+                },
+                "properties": {
+                    "title": "大魔方"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.065273, 30.590039
+                    ]
+                },
+                "properties": {
+                    "title": "九方"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        104.052415, 30.587578
+                    ]
+                },
+                "properties": {
+                    "title": "仁和新城"
+                }
+            }
+        ]
+}

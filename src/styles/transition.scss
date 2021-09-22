@@ -1,0 +1,127 @@
+// global transition css
+
+/* fade */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all 0.5s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+/* panel-transform */
+.panel-transform-leave-active,
+.panel-transform-enter-active {
+  transition: all 0.4s;
+}
+
+.panel-transform-enter,
+.panel-transform-leave-to {
+  opacity: 0;
+  transform: translateX(-280px);
+}
+/* chart-transform */
+.chart-transform-leave-active,
+.chart-transform-enter-active {
+  transition: all 0.4s;
+}
+
+.chart-transform-enter,
+.chart-transform-leave-to {
+  opacity: 0;
+  transform: translateX(450px);
+}
+/* chart-transform-left */
+.chart-transform-left-leave-active,
+.chart-transform-left-enter-active {
+  transition: all 0.4s;
+}
+
+.chart-transform-left-enter,
+.chart-transform-left-leave-to {
+  opacity: 0;
+  transform: translateX(-450px);
+}
+
+/* breadcrumb transition */
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all 0.5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.breadcrumb-move {
+  transition: all 0.5s;
+}
+
+.breadcrumb-leave-active {
+  position: absolute;
+}
+
+/* chart-fade */
+.chart-fade-enter-active {
+  animation: bounce-enter 0.4s;
+}
+
+.chart-fade-leave-active {
+  animation: bounce-leave 0.4s;
+}
+
+@keyframes bounce-enter {
+  0% {
+    height: 0;
+    width: 0;
+    transform: translateX(390px);
+    border: none;
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0.5;
+  }
+
+  100% {
+    height: $colorMain;
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes bounce-leave {
+  0% {
+    height: $colorMain;
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  100% {
+    height: 0;
+    width: 0;
+    transform: translateX(370px) translateY(-5px);
+    border: none;
+    opacity: 0;
+  }
+}

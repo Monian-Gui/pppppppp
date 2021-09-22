@@ -1,0 +1,49 @@
+//主题颜色
+$colorMain: #00e6ff;
+$colorSub1: #00c8ff;
+$colorSub2: #00c8ff;
+
+$colorBlue: #009cff;
+$colorYellow: #fff719;
+$colorShowy: #00ff82;
+$colorSuccess: #6cff00;
+$fontColor: #fff;
+
+$colorWarning: #ff9314;
+$colorDanger: #ff5246;
+
+$b-shadow: 1px solid $colorMain;
+
+$bd: 1px solid red;
+
+.scrollBar {
+  //尺寸
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 4px;
+  }
+  //背景色
+  &::-webkit-scrollbar-track {
+    background: rgba(42, 42, 42, 0.8);
+    border-radius: 2px;
+  }
+  //滚动条色
+  &::-webkit-scrollbar-thumb {
+    background: rgb(0, 90, 169);
+    border-radius: 2px;
+  }
+  // &::-webkit-scrollbar-thumb:hover {
+  // background: red;
+  // }
+  //xy相交的地方
+  &::-webkit-scrollbar-corner {
+    background: #01253a;
+  }
+  //尺寸
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 255, 255, 0.8);
+      border-radius: 2px;
+    }
+  }
+}

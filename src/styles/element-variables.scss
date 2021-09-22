@@ -1,0 +1,204 @@
+@import './global.scss';
+
+/* 改变主题色变量 */
+$--color-primary: $colorBlue;
+$--color-danger: $colorDanger;
+$--color-warning: $colorWarning;
+$--color-success: $colorSuccess;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import '~element-ui/packages/theme-chalk/src/index';
+
+//图例的颜色选择器
+.el-color-picker__trigger {
+  top: 9px;
+  border: none;
+}
+.el-color-picker--mini .el-color-picker__trigger {
+  height: 25px;
+  width: 30px;
+}
+.profile-container {
+  .el-radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    .el-radio {
+      color: $fontColor;
+      width: 50%;
+      margin: 5px 0;
+    }
+  }
+}
+
+.el-menu {
+  border: none;
+  // box-shadow: 1px 3px 5px rgb(0, 90, 169);
+  // box-shadow: 0px 0px 4px 1px #000000;
+  background-color: deepColorFn() !important;
+  color: $fontColor;
+  .el-menu-item {
+    // background:$navColor;
+    color: $fontColor;
+    font-size: 0.8rem;
+
+    &:hover,
+    &:focus {
+      background: deepColorFn(0.8);
+    }
+
+    i {
+      color: inherit;
+    }
+  }
+
+  .el-menu-item-group {
+    color: $fontColor;
+
+    .el-menu-item-group__title {
+      padding-left: 20px !important;
+      // display: none;
+      font-size: 20px;
+      color: #7fc3d2;
+    }
+  }
+
+  .el-submenu {
+    // background:$navColor;
+    color: $fontColor !important;
+
+    .el-submenu__title {
+      color: $fontColor;
+      font-size: 0.9rem;
+      &:hover,
+      &:focus {
+        background: deepColorFn(0.8) !important;
+      }
+
+      i {
+        color: inherit;
+      }
+      .iconfont {
+        font-size: 1.3rem;
+        padding-right: 5px;
+      }
+    }
+  }
+}
+
+.el-menu .el-menu--popup .el-menu--popup-right-start {
+  background-color: deepColorFn() !important;
+}
+
+.el-tooltip__popper.is-dark {
+  background-color: deepColorFn() !important;
+}
+
+//处理el消息弹框导致图表隐藏
+.el-popup-parent--hidden {
+  overflow: unset;
+}
+
+//图例的颜色选择器
+.el-color-picker__trigger {
+  top: 9px;
+  border: none;
+}
+.el-color-picker--mini .el-color-picker__trigger {
+  height: 25px;
+  width: 30px;
+}
+
+// 覆盖elelemnt上传
+.el-upload-dragger {
+  background-color: initial;
+  border: 1px dashed #fff;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 245px;
+  height: 110px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.el-upload-dragger .el-icon-upload {
+  font-size: 55px;
+  color: #fff;
+  margin: 8px 0 3px;
+  line-height: 50px;
+}
+.el-upload-dragger .el-upload__text {
+  color: #fff;
+  p {
+    text-align: center;
+    font-size: 16px;
+    width: 243px;
+    overflow: hidden;
+    // height: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.el-upload-list__item-name {
+  color: #fff;
+}
+.el-upload-list__item-name [class^='el-icon'] {
+  color: #fff;
+}
+.el-upload-list__item:hover {
+  .el-upload-list__item-name {
+    color: rgb(0, 90, 169);
+  }
+  .el-upload-list__item-name [class^='el-icon'] {
+    color: rgb(0, 90, 169);
+  }
+}
+
+// 选择器和复选框
+.checkbox-container {
+  p {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: $colorMain;
+    // font-family: 'HanYiZongYiTiJian';
+  }
+  .el-checkbox {
+    color: $fontColor;
+    width: 100%;
+    margin: 5px 0;
+  }
+  .el-checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    .el-checkbox {
+      width: 50%;
+    }
+  }
+}
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner {
+  background-color: #009cff;
+  border-color: #009cff;
+}
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after {
+  border-color: #fff;
+}
+.el-checkbox__input.is-disabled + span.el-checkbox__label {
+  color: #009cff;
+  cursor: not-allowed;
+}
+
+.el-radio__label {
+  font-size: 20px;
+}
+.el-checkbox__label {
+  font-size: 20px;
+}
+.el-radio__input.is-checked + .el-radio__label {
+  color: #fff;
+}
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #fff;
+}
